@@ -30,28 +30,57 @@ id | user | Nombre estudiante  | Página personal examen
 
 
 
-## EJERCICIO1
+## EJERCICIO1 (1 punto)
 
 Forkea este repositorio y modifica tu página .md con los enlaces a las respuestas. 
 Envía tus cambios a este repositorio.
 
 
-## EJERCICIO2
+## EJERCICIO2 (4,5 puntos)
 
 En tu pagina .md tienes la IP de una sencilla aplicación web "To-Do". 
 
 - Crea un repositorio privado y da acceso al profesor: ualjjcanada
 
-- Realiza con Selenium las pruebas necesarias para verificar que la aplicación web funciona correctamente. Guardalas en el repositorio
+- Realiza con Selenium las pruebas necesarias para verificar que la aplicación web funciona correctamente. Guardalas en el repositorio (ACLARACIÓN las pruebas que grabes con Selenium IDE las guardas en formato `.side` y lo subes al repo de este ejercicio)
 
 - Exporta tus test a JUnit WebDriver. Prueba que funcionan en JUnit
 
 - Crea un proyecto en Jenkins que ejecute los test. 
 
-- Indica en tu página personal del examen: el repositorio donde has resuelto el ejercicio, el enlace a Jenkins y el nombre del proyecto Jenkins donde lo has resuelto
+- Indica en tu página personal del examen:
+    - el **repositorio** donde has resuelto el ejercicio, 
+    - el enlace a Jenkins y el nombre del **proyecto Jenkins** donde lo has resuelto
 
 
-## EJERCICIO3
+## EJERCICIO3 (4,5 puntos)
+
+- Crea en GitHub un nuevo repositorio privado `ejecicio3examen` y da acceso al profesor: ualjjcanada
+
+- Crea en tu máquina local un proyecto en Java con una clase con nombre `Ejercicio3` y un método llamado `diaSemana(int dia)` que recibe un numero entero y devuelve una cadena con el nombre del día de la semana: 
+````
+    1 -> lunes 
+    2 -> martes
+    ... 
+    7 -> domingo
+    otro valor -> ERROR!
+````
+- Implementa los casos de prueba necesarios utilizando JUnit y, si es posible, tests parametrizados, para obtener un 100% de cobertura del código del método `diaSemana()`, usando los valores límite adecuados donde proceda. 
+
+- **Guarda tus cambios** en el **repositorio** privado de este ejercicio.
+
+- Crea en Jenkins un proyecto de tipo **pipeline** que construya el ejercicio 3: compilando los fuentes y ejecutando los tests. Para esto será necesario que el proyecto esté *mavenizado*.
+
+- Publica en Jenkins los resultados de los test y de cobertura de código.
+
+- Añade al pipeline una fase de *análisis estático de código* en la que se ejecuten, al menos, **CheckStyle** y **FindBugs/SpotBugs**. **No** corregir los posibles errores que aparezcan. 
+
+- Publica los resultados de CheckStyle y SpotBugs en tu proyecto Jenkins.
+
+- **NO OLVIDES**: Indica en tu página personal del examen: 
+  - el **repositorio** donde has resuelto el ejercicio, 
+  - el enlace a Jenkins y el **nombre del proyecto Jenkins** donde lo has resuelto
+
 
 
 
