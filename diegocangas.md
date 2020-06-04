@@ -7,6 +7,6 @@ http://35.224.244.135:8080
 #### jenkins: http://jenkins-nelim.northeurope.cloudapp.azure.com/
 #### NombreProjecto: HMIS-Junio
 
-### Ejercico3
+### Ejercicio3
 #### repo: https://github.com/DiegoCangas/ejecicio3examen.git
 #### NombreProjecto: ejericicio3ExJunio-dcm228
